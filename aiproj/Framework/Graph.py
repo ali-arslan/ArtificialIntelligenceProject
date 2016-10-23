@@ -4,14 +4,16 @@
 
 class Graph:
     # global stack depth to define the recursion limit
-    def __init__(self, stackdepth):
+    def __init__(self, nodes, edges, stackdepth):
         stackdepth
+        self.nodes = nodes
+        self.edges = edges
 
     def getNodeCount(self):
-        1
+        return len(self.nodes)
 
     def getEdgeCount(self):
-        1
+        return len(self.edges)
 
     def testReachibility(self):
         1
