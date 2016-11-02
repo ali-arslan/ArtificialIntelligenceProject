@@ -10,16 +10,16 @@ class IntermediateRepresentation:
 
     # return graph to be consumed by Algorithms
     def getGraph(self):
-        return self.graph
+        return self.graph.G
 
     def getNodeCount(self):
-        return len(self.graph.nodes)
+        return len(self.graph.G)
 
     def getEdgeCount(self):
-        return len(self.graph.edges)
+        return self.graph.G.number_of_edges()
 
     def testReachibility(self):
-        1
+        return self.graph.testReachibility()
 
 
 
