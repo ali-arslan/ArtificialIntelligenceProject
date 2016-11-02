@@ -1,5 +1,9 @@
 # This is used to load data from an input file and parse into the intermediate format before storing it in a graph
 
+import xml.etree.ElementTree as ET #xml parser library
+import json #json parser library
+from pprint import pprint #json support
+
 class DataLoader:
     # Includes parsers and transformer
 
@@ -25,10 +29,18 @@ class DataLoader:
 
     # parse data and store; call transform
     def JSONparser(self):
-        1
+        with open('data.json') as data_file:    
+        data = json.load(data_file)
+
+        pprint(data)
+
 
     def XMLparser(self):
-        1
+        tree = ET.parse('country_data.xml')
+        root = tree.getroot()
+        
+        #for atype in e.findall('type'): alternatively, to parse as a string
+            #print(atype.get('foobar'))
 
     def textparser(self):
         with open("file.txt", "r") as ins:
