@@ -9,7 +9,7 @@ class Graph:
     def __init__(self, nodes, edges, stackdepth):
         stackdepth
 
-        self.G=nx.Graph()
+        self.G = x.Graph()
         self.G.add_nodes_from(nodes)
         for edge in edges:
         	self.G.add_edge(edge.first,edge.second,{‘weight’:edge.weight})
@@ -21,7 +21,7 @@ class Graph:
         return self.G.number_of_edges()
 
     def testReachibility(self):
-        if len(descendants(self.G, self.G.nodes()[0]))+1 == getNodeCount:
+        if len(self.G.descendants( self.G.nodes()[0]))+1 == getNodeCount:
         	return True
         else
         	return False
