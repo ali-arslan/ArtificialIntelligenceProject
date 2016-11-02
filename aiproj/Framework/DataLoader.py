@@ -33,14 +33,20 @@ class DataLoader:
     def textparser(self):
         with open("file.txt", "r") as ins:
             line = ins.readline()
-            while line != "edges":
+            if line != "nodes":
+                return False
+            line = ins.readline()
+            while line != "edges" && line:
                 self.nodes.append(line)
                 line = ins.readline()
+            if line == NULL:
+                return False
             line = ins.readline()
             while line:
                 line_split = line.split(' ', 2)
                 self.edges.append(edge(line_split[0], line_split[1], line_split[2]))
                 line = ins.readline()
+            return True
 
     # transform data to IR format and return; is expected to be piped to IntermediateRepresentation
     #DON'T NEED THIS
