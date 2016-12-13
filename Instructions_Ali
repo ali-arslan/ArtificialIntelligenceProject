@@ -1,7 +1,0 @@
-[7:55 AM, 10/20/2016] Ali Arsalan: you guys need to implement DataLoader.py, which reads text/json/xml and parses it into a format for processing                        
-[7:56 AM, 10/20/2016] Ali Arsalan: and Graph.py. This should contain a graph implementation. Might be best to write a wrapper around the library I have linked inside                        
-[7:56 AM, 10/20/2016] Ali Arsalan: and IntermediateRepresentation.py                        
-[7:57 AM, 10/20/2016] Ali Arsalan: this contains the Graph for a given data set and also auxiliary methods                        
-[7:57 AM, 10/20/2016] Ali Arsalan: just grab one each                        
-[7:57 AM, 10/20/2016] Ali Arsalan: also remember these 3 work together so keep in touch                        
-[7:57 AM, 10/20/2016] Ali Arsalan: this is till next deliverable

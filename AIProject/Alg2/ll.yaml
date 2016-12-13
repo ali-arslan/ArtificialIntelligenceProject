@@ -1,0 +1,232 @@
+!!python/object:networkx.classes.graph.Graph
+adj: &id079
+  0:
+    1: &id001 {}
+    2: &id002 {}
+    3: &id004 {}
+    4: &id007 {}
+    5: &id008 {}
+    6: &id009 {}
+    7: &id012 {}
+    8: &id016 {}
+    10: &id019 {}
+    11: &id022 {}
+    12: &id023 {}
+    13: &id025 {}
+    17: &id031 {}
+    19: &id033 {}
+    21: &id035 {}
+    31: &id047 {}
+  1:
+    0: *id001
+    2: &id003 {}
+    3: &id005 {}
+    7: &id013 {}
+    13: &id026 {}
+    17: &id032 {}
+    19: &id034 {}
+    21: &id036 {}
+    30: &id045 {}
+  2:
+    0: *id002
+    1: *id003
+    3: &id006 {}
+    7: &id014 {}
+    8: &id017 {}
+    9: &id018 {}
+    13: &id027 {}
+    27: &id039 {}
+    28: &id042 {}
+    32: &id051 {}
+  3:
+    0: *id004
+    1: *id005
+    2: *id006
+    7: &id015 {}
+    12: &id024 {}
+    13: &id028 {}
+  4:
+    0: *id007
+    6: &id010 {}
+    10: &id020 {}
+  5:
+    0: *id008
+    6: &id011 {}
+    10: &id021 {}
+    16: &id029 {}
+  6:
+    0: *id009
+    4: *id010
+    5: *id011
+    16: &id030 {}
+  7:
+    0: *id012
+    1: *id013
+    2: *id014
+    3: *id015
+  8:
+    0: *id016
+    2: *id017
+    30: &id046 {}
+    32: &id052 {}
+    33: &id062 {}
+  9:
+    2: *id018
+    33: &id063 {}
+  10:
+    0: *id019
+    4: *id020
+    5: *id021
+  11:
+    0: *id022
+  12:
+    0: *id023
+    3: *id024
+  13:
+    0: *id025
+    1: *id026
+    2: *id027
+    3: *id028
+    33: &id064 {}
+  14:
+    32: &id053 {}
+    33: &id065 {}
+  15:
+    32: &id054 {}
+    33: &id066 {}
+  16:
+    5: *id029
+    6: *id030
+  17:
+    0: *id031
+    1: *id032
+  18:
+    32: &id055 {}
+    33: &id067 {}
+  19:
+    0: *id033
+    1: *id034
+    33: &id068 {}
+  20:
+    32: &id056 {}
+    33: &id069 {}
+  21:
+    0: *id035
+    1: *id036
+  22:
+    32: &id057 {}
+    33: &id070 {}
+  23:
+    25: &id037 {}
+    27: &id040 {}
+    29: &id043 {}
+    32: &id058 {}
+    33: &id071 {}
+  24:
+    25: &id038 {}
+    27: &id041 {}
+    31: &id048 {}
+  25:
+    23: *id037
+    24: *id038
+    31: &id049 {}
+  26:
+    29: &id044 {}
+    33: &id072 {}
+  27:
+    2: *id039
+    23: *id040
+    24: *id041
+    33: &id073 {}
+  28:
+    2: *id042
+    31: &id050 {}
+    33: &id074 {}
+  29:
+    23: *id043
+    26: *id044
+    32: &id059 {}
+    33: &id075 {}
+  30:
+    1: *id045
+    8: *id046
+    32: &id060 {}
+    33: &id076 {}
+  31:
+    0: *id047
+    24: *id048
+    25: *id049
+    28: *id050
+    32: &id061 {}
+    33: &id077 {}
+  32:
+    2: *id051
+    8: *id052
+    14: *id053
+    15: *id054
+    18: *id055
+    20: *id056
+    22: *id057
+    23: *id058
+    29: *id059
+    30: *id060
+    31: *id061
+    33: &id078 {}
+  33:
+    8: *id062
+    9: *id063
+    13: *id064
+    14: *id065
+    15: *id066
+    18: *id067
+    19: *id068
+    20: *id069
+    22: *id070
+    23: *id071
+    26: *id072
+    27: *id073
+    28: *id074
+    29: *id075
+    30: *id076
+    31: *id077
+    32: *id078
+adjlist_dict_factory: &id080 !!python/name:__builtin__.dict ''
+edge: *id079
+edge_attr_dict_factory: *id080
+graph: {name: Zachary's Karate Club}
+node:
+  0: {club: Mr. Hi}
+  1: {club: Mr. Hi}
+  2: {club: Mr. Hi}
+  3: {club: Mr. Hi}
+  4: {club: Mr. Hi}
+  5: {club: Mr. Hi}
+  6: {club: Mr. Hi}
+  7: {club: Mr. Hi}
+  8: {club: Mr. Hi}
+  9: {club: Officer}
+  10: {club: Mr. Hi}
+  11: {club: Mr. Hi}
+  12: {club: Mr. Hi}
+  13: {club: Mr. Hi}
+  14: {club: Officer}
+  15: {club: Officer}
+  16: {club: Mr. Hi}
+  17: {club: Mr. Hi}
+  18: {club: Officer}
+  19: {club: Mr. Hi}
+  20: {club: Officer}
+  21: {club: Mr. Hi}
+  22: {club: Officer}
+  23: {club: Officer}
+  24: {club: Officer}
+  25: {club: Officer}
+  26: {club: Officer}
+  27: {club: Officer}
+  28: {club: Officer}
+  29: {club: Officer}
+  30: {club: Officer}
+  31: {club: Officer}
+  32: {club: Officer}
+  33: {club: Officer}
+node_dict_factory: *id080
